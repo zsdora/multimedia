@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>All-Out Játék</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<div id="gameboard"></div>
+<div>
+  <label>Lépések:</label> <span id="moves">0</span>
+  <label>Eltelt idő:</label> <span id="timer">0</span>
+  <button id="new-game-button">Új játék</button><br>
+
+
+
+</div>
+<div id="congratulations" style="display: none;">Gratulálok, nyertél!</div>
+
+<audio src="children_of%20_the%20_Omnissiah.mp3" autoplay loop></audio>
+
+<h2>Toplista</h2>
+<table>
+  <thead>
+  <tr>
+    <th>Rank</th>
+    <th>Név</th>
+    <th>Rekord</th>
+  </tr>
+  </thead>
+  <tbody id="leaderboard">
+  </tbody>
+</table>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
